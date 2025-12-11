@@ -11,7 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.lazycolumnclase2026.LaztColumns.HeaderLazy
 import com.example.lazycolumnclase2026.LaztColumns.LazyColumnGuitars
+import com.example.lazycolumnclase2026.LaztColumns.LazyControl
 import com.example.lazycolumnclase2026.LaztColumns.LazyGridGuitars
 import com.example.lazycolumnclase2026.LaztColumns.SimpleLazyColumn
 import com.example.lazycolumnclase2026.ui.theme.LazyColumnclase2026Theme
@@ -37,7 +39,9 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
   //  SimpleLazyColumn(modifier)
   //  LazyColumnGuitars(modifier)
-    LazyGridGuitars(modifier)
+    //LazyGridGuitars(modifier)
+   // LazyControl(modifier)
+    HeaderLazy(modifier)
 }
 
 @Preview(showBackground = true)
